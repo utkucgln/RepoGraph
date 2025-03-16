@@ -1,4 +1,4 @@
-# Repository Analyzer
+# RepoGraph - Repository Analyzer
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)

@@ -203,7 +203,7 @@ class ArchitectureDiagramGeneratorAgent(Agent):
           }
         ]
 
-        Provide only the JSON array, no other text.
+        *IMPORTANT*: Do not include ```json``` or ```indent``` in your response.
         """
 
         # Get components from LLM
@@ -369,8 +369,7 @@ class ArchitectureDiagramGeneratorAgent(Agent):
             "description": "User ID for fetching user profile"
           }}
         ]
-
-        Provide only the JSON array, no other text.
+        *IMPORTANT*: Do not include ```json``` or ```indent``` in your response.
         """
 
         # Get data flows from LLM
@@ -556,7 +555,7 @@ class ArchitectureDiagramGeneratorAgent(Agent):
           }}
         ]
 
-        Provide only the JSON array, no other text.
+        *IMPORTANT*: Do not include ```json``` or ```indent``` in your response.
         """
 
         # Get processes from LLM
