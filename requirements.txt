@@ -1,0 +1,28 @@
+# Core dependencies
+pydantic==2.10.6
+typing-extensions>=4.0.0
+python-dotenv>=1.0.0
+
+# Async functionality
+asyncio>=3.4.3
+
+# Logging
+loguru>=0.7.0
+
+# File handling
+pathlib>=1.0.1
+
+# API and networking
+requests>=2.31.0
+aiohttp>=3.8.5
+
+# Optional: Development dependencies
+pytest>=7.4.0
+black>=23.7.0
+isort>=5.12.0
+mypy>=1.5.0
+langchain-openai==0.3.8
+llama-cpp-python>=0.2.0
+transformers>=4.30.0
+torch>=2.0.0
+accelerate>=0.21.0
